@@ -276,7 +276,7 @@ module Guard
       #
       def _prompt(ending_char)
         proc do |target_self, nest_level, pry|
-          history = pry.input_array.size
+          history = pry.input_ring.size
           process = Guard.listener.paused? ? "pause" : "guard"
           level = ":#{ nest_level }" unless nest_level.zero?
 
