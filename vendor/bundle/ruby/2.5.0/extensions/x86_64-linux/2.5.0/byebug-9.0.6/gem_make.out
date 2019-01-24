@@ -1,0 +1,19 @@
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-9.0.6/ext/byebug
+/home/andy/.rvm/rubies/ruby-2.5.0/bin/ruby -I /home/andy/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190122-32674-1fzx9ra.rb extconf.rb
+creating Makefile
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20190122-32674-1ixzj3o/byebug

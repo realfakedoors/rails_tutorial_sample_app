@@ -1,0 +1,19 @@
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+/home/andy/.rvm/rubies/ruby-2.5.0/bin/ruby -I /home/andy/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190122-32674-m0ajf4.rb extconf.rb
+creating Makefile
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" clean
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR="
+compiling bcrypt_ext.c
+compiling crypt.c
+compiling crypt_blowfish.c
+compiling crypt_gensalt.c
+compiling wrapper.c
+linking shared-object bcrypt_ext.so
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bcrypt-3.1.12/ext/mri
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20190122-32674-5n786r

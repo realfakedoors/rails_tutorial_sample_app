@@ -1,0 +1,15 @@
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+/home/andy/.rvm/rubies/ruby-2.5.0/bin/ruby -I /home/andy/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190122-32674-10da4lq.rb extconf.rb
+creating Makefile
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20190122-32674-c71ocq/bindex

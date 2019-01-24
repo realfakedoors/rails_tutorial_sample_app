@@ -1,0 +1,15 @@
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/home/andy/.rvm/rubies/ruby-2.5.0/bin/ruby -I /home/andy/.rvm/rubies/ruby-2.5.0/lib/ruby/site_ruby/2.5.0 -r ./siteconf20190122-32674-12evv3z.rb extconf.rb
+creating Makefile
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/andy/Documents/TheOdinProject/railsapps/sample_app/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20190122-32674-1j8uz4
