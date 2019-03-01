@@ -87,4 +87,8 @@ Rails.application.configure do
   
   # Access encrypted secrets in secrets.yml.
   config.read_encrypted_secrets = true
+  
+  # Defining AWS access keys.
+  config.aws_access_key_id = ENV['S3_ACCESS_KEY']
+  config.aws_secret_access_key = ENV['S3_SECRET_KEY']
 end
