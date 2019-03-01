@@ -84,4 +84,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+  
+  # Access encrypted secrets in secrets.yml.
+  config.read_encrypted_secrets = true
 end
