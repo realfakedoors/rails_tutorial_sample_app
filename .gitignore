@@ -27,3 +27,11 @@
 
 # Ignore uploaded test images.
 /public/uploads
+
+# Ignore encrypted secrets key file.
+config/secrets.yml.key
+
+# Ignore master key file.
+config/master.key
+# Ignore application configuration
+/config/application.yml
